@@ -5,4 +5,3 @@ RUN rm /etc/nginx/conf.d/* && \
     mkdir /ipxe
 
 ADD nginx.conf /etc/nginx/conf.d/
-ADD index.html /ipxe/
